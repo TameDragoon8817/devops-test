@@ -55,12 +55,20 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<version>3.2.0</version>
 				<configuration>
-					<webXml>web/WEB-INF/web.xml</webXml>
+					<webXml>src/main/webapp/WEB-INF/web.xml</webXml>
 					<warSourceDirectory>web</warSourceDirectory>
 				</configuration>
 			</plugin>
 		</plugins>
 	</build>
+	
+	<distributionManagement>
+   		<repository>
+     			<id>github</id>
+     			<name>GitHub OWNER Apache Maven Packages</name>
+     			<url>https://maven.pkg.github.com/TameDragoon8817/devops-test</url>
+   		</repository>
+	</distributionManagement>
 
 	<properties>
 		<maven.compiler.source>17</maven.compiler.source>
