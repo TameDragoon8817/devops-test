@@ -57,6 +57,7 @@
 				<configuration>
 					<webXml>src/main/webapp/WEB-INF/web.xml</webXml>
 					<warSourceDirectory>web</warSourceDirectory>
+					<warName>devopsdemo</warName>
 				</configuration>
 			</plugin>
 		</plugins>
